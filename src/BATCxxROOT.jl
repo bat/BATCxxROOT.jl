@@ -7,6 +7,11 @@ module BATCxxROOT
 using Compat
 using Compat: axes
 
-# package code goes here
+using BAT
+using ElasticArrays
+using Cxx
+using ROOTFramework
+
+include("read_mcmc_samples.jl")
 
 end # module
